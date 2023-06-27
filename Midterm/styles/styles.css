@@ -1,0 +1,59 @@
+.homepage{
+  font: black;
+  background-color: grey;
+}
+a:active{
+color: black;
+}  
+#sizeBar {
+  width: 100px; 
+  height: 30px;
+}
+#quantityInput {
+  width: 70px; 
+}
+#searchBar {
+  width: 150px;
+  float: right;
+  margin-right: 10px;
+  text-align: right;
+}
+.jumbotron {
+  background-image: url('');
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.nav-item{
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+}
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-information { 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: Roboto, sans-serif;
+}
+
+.contact-information .form-group {
+  flex: 0 0 48%;
+  margin-bottom: 15px;
+}
+
+.contact-information label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-information input {
+  width: 70%;
+  padding: 5px;
+}
+
+.contact-information button {
+  margin-top: 15px;
+}
