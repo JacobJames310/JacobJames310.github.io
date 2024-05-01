@@ -3314,3 +3314,46 @@ input, select, textarea {
 			}
 
 	}
+	.container {
+    width: 100%; /* Adjust the width of the container to fit your layout */
+    padding: 20px; /* Padding around the container */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.row {
+    display: flex; /* Uses flexbox to layout children horizontally */
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines as needed */
+    justify-content: space-between; /* Distributes space between and around content items */
+    margin: 0 -15px; /* Adjust margin to create the desired space between cards */
+}
+
+.col {
+    padding: 0 15px; /* Padding around each column */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    flex: 1 1 20%; /* Flex-grow, flex-shrink, and flex-basis values, adjust basis as needed for responsiveness */
+    max-width: 20%; /* Maximum width of each column, adjust according to your layout needs */
+}
+
+.card {
+    display: flex; /* Makes the card a flex container */
+    flex-direction: column; /* Stacks the items vertically */
+    align-items: center; /* Centers items horizontally within the card */
+    border: 1px solid #ccc; /* Border color and thickness */
+    margin-top: 20px; /* Margin top for spacing between rows of cards */
+    padding: 20px; /* Padding inside each card */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    height: 100%; /* Ensures all cards are of the same height */
+}
+
+.card i {
+    font-size: 48px; /* Icon size, adjust as needed */
+    margin-bottom: 10px; /* Space between the icon and the text */
+}
+
+.card h4 {
+    margin: 0; /* Removes default margin from h4 */
+}
+#five ul {
+	list-style-type: none; /* Removes the bullets */
+	padding: 0; /* Removes the padding */
+}
